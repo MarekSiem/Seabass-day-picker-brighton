@@ -2,15 +2,19 @@
 
 A simple, free web tool that helps you pick the best days to fish for seabass around **Brighton and Shoreham** on the Sussex coast. It scores upcoming days using live weather and sea/marine conditions, so you can plan a session at a glance.
 
-It's a single self-contained web page — no install, no account, nothing to run on a server. Just open it in a browser.
+It's made of self-contained web pages — no install, no account, nothing to run on a server. Just open it in a browser.
 
 ## Live version
 
-If hosted with GitHub Pages, the tool is available here:
+The tool is hosted on GitHub Pages:
 
-`https://mareksiem.github.io/Seabass-day-picker-brighton/`
+**<https://mareksiem.github.io/Seabass-day-picker-brighton/>**
 
-*(Replace with your actual link once Pages is enabled.)*
+It's made up of three linked pages:
+
+- **Bass Day Picker** ([`index.html`](index.html)) — the forecast and day scores.
+- **Guide** ([`help.html`](help.html)) — how to read the scores and when to overrule them.
+- **Log Catch Shortcut** ([`LogCatch-iphone-shortcut-guide.html`](LogCatch-iphone-shortcut-guide.html)) — an optional iPhone shortcut for logging catches at the waterside.
 
 ## Features
 
@@ -21,11 +25,7 @@ If hosted with GitHub Pages, the tool is available here:
 
 ## How to use it
 
-Open the page in any modern browser (phone, tablet, or computer). It loads current forecast data automatically and shows a ranked view of the days ahead.
-
-## Running it locally
-
-Because it's a single HTML file, you can also just download it and double-click to open it in your browser. An internet connection is needed so it can fetch live weather and marine data.
+Just open the live link in any modern browser (phone, tablet, or computer) — no install, no account. It fetches current forecast data automatically and shows a ranked view of the days ahead, so an internet connection is required. On a phone you can tap the browser's share icon → **Add to Home Screen** for an app-style icon.
 
 ## Data sources and credits
 
