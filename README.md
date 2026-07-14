@@ -8,7 +8,7 @@ It's a single self-contained web page — no install, no account, nothing to run
 
 If hosted with GitHub Pages, the tool is available here:
 
-`https://<your-username>.github.io/<your-repo-name>/`
+`[https://<your-username>.github.io/<your-repo-name>/](https://mareksiem.github.io/Seabass-day-picker-brighton/)`
 
 *(Replace with your actual link once Pages is enabled.)*
 
