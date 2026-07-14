@@ -19,6 +19,26 @@
   </noscript>
 </head>
 <body>
+<style id="site-nav-style">
+  body { padding-top: 50px !important; }
+  #site-nav { position: fixed; top: 0; left: 0; right: 0; height: 50px; z-index: 10000;
+    background: #0b1c2c; box-shadow: 0 1px 8px rgba(0,0,0,.28);
+    display: flex; align-items: center; justify-content: center; gap: 4px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+  #site-nav a { color: #cfe3e6; text-decoration: none; font-size: 14px; font-weight: 600;
+    padding: 8px 14px; border-radius: 8px; white-space: nowrap; line-height: 1; }
+  #site-nav a:hover { background: rgba(79,214,200,.16); color: #eafcf9; }
+  #site-nav a.active { color: #e8c56a; }
+  #site-nav a.active::after { content: ""; display: block; height: 2px; margin-top: 5px;
+    background: #e8c56a; border-radius: 2px; }
+  @media (max-width: 430px){ #site-nav a{ padding: 8px 8px; font-size: 12.5px; } }
+</style>
+<nav id="site-nav">
+  <a href="index.html">Bass Day Picker</a>
+  <a href="help.html" class="active">Guide</a>
+  <a href="LogCatch-iphone-shortcut-guide.html">Log Catch Shortcut</a>
+</nav>
+
   <div id="__bundler_thumbnail">
   <svg xmlns="http://www.w3.org/2000/svg" sc-camel-view-box="0 0 100 100">
     <rect width="100" height="100" fill="#0b1c2c"></rect>
